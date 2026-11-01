@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">کدیار24</string>
+    <string name="cancel_order">لغو سفارش</string>
+    <string name="cancel_order_confirm_title">تأیید لغو سفارش</string>
+    <string name="cancel_order_warning">با ۳ بار لغو، امکان ثبت سفارش برای شماره شما بسته میشود.</string>
+    <string name="yes_cancel">بله، لغو شود</string>
+    <string name="dismiss">انصراف</string>
+</resources>

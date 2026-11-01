@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:scaleX="0.65" android:scaleY="0.65" android:translateX="-24" android:translateY="-7">
+        <!-- Background inner subtle ring -->
+        <path
+            android:strokeColor="#33FFFFFF"
+            android:strokeWidth="6"
+            android:pathData="M174,94 A54,54 0 1 1 66,94 A54,54 0 1 1 174,94" />
+        <!-- Orange accent circular ring -->
+        <group android:pivotX="120" android:pivotY="94" android:rotation="-50">
+            <path
+                android:strokeColor="#FF7A1A"
+                android:strokeWidth="6"
+                android:strokeLineCap="round"
+                android:trimPathStart="0"
+                android:trimPathEnd="0.82"
+                android:pathData="M174,94 A54,54 0 1 1 66,94 A54,54 0 1 1 174,94" />
+        </group>
+        <!-- Customer avatar head -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="6"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M132,78 A12,12 0 1 1 108,78 A12,12 0 1 1 132,78" />
+        <!-- Customer avatar body / shoulders -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="6"
+            android:strokeLineCap="round"
+            android:pathData="M94,116 C96,100 106,94 120,94 C134,94 144,100 146,116" />
+        <!-- Verified check badge (Orange circle) -->
+        <path
+            android:fillColor="#FF7A1A"
+            android:strokeColor="#0B1530"
+            android:strokeWidth="3"
+            android:pathData="M136,116 A16,16 0 1 0 168,116 A16,16 0 1 0 136,116" />
+        <!-- White checkmark -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M145,116 L150,121 L160,111" />
+    </group>
+</vector>
